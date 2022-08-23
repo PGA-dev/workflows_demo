@@ -1,7 +1,7 @@
-import sys
+
 
 def main():
-    print("Hello World! From Python: " + str(sys.version_info)
+    print("Hello World! From Python")
 
 if __name__ == "__main__":
     main()
