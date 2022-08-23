@@ -1,10 +1,7 @@
-import sys
+
 
 def main():
-    print("Hello World! From Python: " + str(sys.version_info))
-    if sys.version_info >= 12 and sys.version_info < 15:
-        # let's make this script fail for Python 3.6
-        raise Exception('Python version 3.6.x is unsupported!')
+    print("Hello World! From Python")
 
 if __name__ == "__main__":
     main()
